@@ -1,0 +1,13 @@
+class Triple {
+	int first;
+	int second;
+	bool third;
+}
+
+int main() {
+	Triple triple = new Triple;
+	triple.first = 0;
+	triple.second = 0;
+	triple.third = (triple.first == triple.second);
+	return 0;
+}

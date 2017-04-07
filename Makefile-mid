@@ -1,0 +1,6 @@
+all:
+	mkdir -p bin
+	javac -cp antlr-4.5.2-complete.jar MFChen/*/*.java MFChen/*.java -d bin
+
+clean:
+	rm -rf bin

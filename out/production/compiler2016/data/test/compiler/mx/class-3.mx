@@ -1,0 +1,10 @@
+class C1 {
+    int x;
+}
+
+int main() {
+    C1 c1 = new C1;
+    c1.x = 10;
+    printInt(2 * c1.x);
+	return 0;
+}

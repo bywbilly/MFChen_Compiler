@@ -1,0 +1,9 @@
+int main() {
+	int b = 1;
+	int c = 2;
+	return b + c;
+}
+
+/*! assert: exitcode
+3
+*/

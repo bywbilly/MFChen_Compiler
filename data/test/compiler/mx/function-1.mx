@@ -1,0 +1,11 @@
+int min(int a, int b) {
+    if (a <= b) return a;
+    return b;
+}
+
+int main() {
+    int x = 10;
+    int y = 20;
+    printInt(min(x, y));
+    return 0;
+}

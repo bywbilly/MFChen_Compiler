@@ -1,0 +1,20 @@
+int main() {
+    int la = 5;
+    int[] a = new int[la];
+
+    int i;
+    int cnt = 0;
+    for (i = 0; i < la; ++i) {
+		int x = a[i];
+        a[i] = ++cnt;
+    }
+
+    int sum = 0;
+    for (i = 0; i < la; ++i) sum = sum + a[i];
+
+    return sum;
+}
+
+/*! assert: exitcode
+15
+*/

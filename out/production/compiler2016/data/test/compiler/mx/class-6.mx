@@ -1,0 +1,9 @@
+class A {
+	int a = 0;
+}
+
+int main() {
+	A a = new A;
+	++a.a;
+	println(toString(a.a));
+}

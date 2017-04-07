@@ -1,0 +1,9 @@
+int main() {
+	string str = "too young too simple";
+	int i;
+	for (i = 0; i < str.length(); ++i) {
+		printInt(str.ord(i));
+		println("");
+	}
+	return 0;
+}

@@ -1,0 +1,41 @@
+class Segment
+{
+} //empty class
+
+class leader
+{
+    bool isCountryChairman;
+    bool isCMCChairman;
+}
+
+class journalist
+{
+    int height;
+    int speed; 
+}
+
+void interview(journalist interviewer, leader interviewee, int speed, int height)
+{
+
+}
+
+void interview(journalists interviewers, leaders interviewee) //intended to make a mistake
+{
+}
+
+void interviews(journalists interviewers, leaders interviewee) //intended to make a mistake
+{
+}
+
+void fun(int a, int b, string a, bool b) //intended to make a mistake
+{
+
+}
+
+int main()
+{
+    interview(Mike, JZM, 0, 1LL << 62); //warning: implicit conversion from 'long long' to 'int'
+    interview(Sharon_Zhang, JZM, 1LL << 62, 0); //warning: implicit conversion from 'long long' to 'int'
+    interview(Mike, DXP, 0, 1LL << 61);
+    return 0;
+}

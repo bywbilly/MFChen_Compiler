@@ -1,0 +1,6 @@
+int main() {
+	int[] a = new int[10];
+	int b = a[5] = 5;
+	printInt(b);
+	return 0;
+}

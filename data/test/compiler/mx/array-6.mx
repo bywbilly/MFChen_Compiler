@@ -1,0 +1,14 @@
+int main() {
+    int la = 5;
+    int[] a = new int[la];
+
+    int i;
+    int cnt = 0;
+    for (i = 0; i < la; ++i)
+        a[i] = ++cnt;
+
+    int sum = 0;
+    for (i = 0; i < la; ++i) sum = sum + a[i];
+	printInt(sum);
+	return 0;
+}

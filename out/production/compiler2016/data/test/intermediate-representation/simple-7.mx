@@ -1,0 +1,11 @@
+int main() {
+    int a = 5;
+    int b;
+    int c;
+    b = c = a++;
+    return b+c+a;
+}
+
+/*! assert: exitcode
+16
+*/

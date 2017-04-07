@@ -1,0 +1,24 @@
+class Pair {
+	int first;
+	int second;
+	int sum;
+
+	Pair(int first, int second) {
+		this.first = first;
+		this.second = second;
+	}
+
+	void getSum() {
+		sum = first + second;
+	}
+}
+
+int main() {
+	Pair pair = new Pair(7, 7);
+	pair.getSum();
+	return pair.sum;
+}
+
+/*! assert: exitcode
+14
+*/

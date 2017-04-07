@@ -1,0 +1,14 @@
+int main() {
+    int a = 5;
+    int b = 0;
+    int c;
+    if (a/b != 1) {
+        c = 10;
+    } else {
+        c = 20;
+    }
+    return c;
+}
+
+/*! assert: exception
+*/

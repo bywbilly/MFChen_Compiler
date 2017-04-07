@@ -1,0 +1,8 @@
+int main() {
+    int a = 5;
+    int b;
+    int c;
+    b = c = a++;
+    printInt(b + c + a);
+    return 0;
+}

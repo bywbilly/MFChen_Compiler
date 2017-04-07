@@ -1,0 +1,31 @@
+class test{
+	 int a;
+	int b;
+		int d;
+}
+
+int f(int a, int    b) {
+	int dd = a +b+ 1;
+	return dd<< 2;
+}
+
+int main() {
+	int a;
+	 int b;
+	int c;
+int d= 2;
+int i;
+ int sum;
+	for (i= 0;i <10;    i++) {
+      sum =sum+ i+d;
+	} 
+	while(sum<= 10) {
+	 sum++;
+	}
+	if (sum >9) {
+	 		sum = sum %10;
+	}
+	else
+	sum = sum*10;
+	return f(sum,sum+1);
+}

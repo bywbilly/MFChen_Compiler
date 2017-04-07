@@ -1,0 +1,12 @@
+int one() {
+	return 1;
+}
+
+int two() {
+	return 2;
+}
+
+int main() {
+	println(toString(one() + two()));
+	return 0;
+}

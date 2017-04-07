@@ -1,0 +1,17 @@
+class node{
+	int val;
+	node next;
+}
+int main() {
+	node start = new node;
+	node a = start;
+	start.val = 1;
+	int i;
+	for (i = 2; i <= 10; i++) {
+		start.next = new node;
+		start = start.next;
+		start.val = i;
+	}
+	println(toString(a.val + a.next.val + a.next.next.val + a.next.next.next.val));
+	return 0;
+}

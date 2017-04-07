@@ -1,0 +1,9 @@
+int main() {
+	int[][] a = new int[3][];
+	a[0] = new int[10];
+	return 0;
+}
+
+/*! assert: exitcode
+0
+*/

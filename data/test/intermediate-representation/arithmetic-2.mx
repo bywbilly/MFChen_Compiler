@@ -1,0 +1,15 @@
+bool getTrue() {
+	return true;
+}
+
+int main() {
+	int answer = 1;
+	if (getTrue()) {
+		answer = answer * 2;
+	}
+	return answer;
+}
+
+/*! assert: exitcode
+2
+*/

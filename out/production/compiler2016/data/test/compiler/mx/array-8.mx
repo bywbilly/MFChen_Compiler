@@ -1,0 +1,14 @@
+int i;
+int[][] a = new int[10][];
+
+int main() {
+	for (i = 0; i < 10; ++i) {
+		a[i] = new int[i];
+	}
+	int answer = a.size();
+	for (i = 0; i < 10; ++i) {
+		answer = answer + a[i].size();
+	}
+	printInt(answer);
+	return 0;
+}
